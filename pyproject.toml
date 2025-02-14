@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ImageClassifier"
+version = "0.0.1"
+description = "Computer vision model that detects chest cancer"
+authors = [{ name = "Jisna Patharakkal", email = "jisna12@gmail.com" }]
+dependencies = [
+    "dvc", "mlflow", "notebook", "numpy", "matplotlib", "seaborn", "python-box", 
+    "pyYAML", "tqdm", "ensure", "joblib", "types-PyYAML", "scipy", "Flask", "Flask-Cors"
+]
+
+[project.urls]
+Homepage = "https://github.com/JisnaP/ComputerVisionImageClassification"
+Issues = "https://github.com/JisnaP/ComputerVisionImageClassification/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]  

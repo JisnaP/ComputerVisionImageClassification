@@ -1,0 +1,22 @@
+Metadata-Version: 2.2
+Name: ImageClassifier
+Version: 0.0.1
+Summary: Computer vision model that detects chest cancer
+Author-email: Jisna Patharakkal <jisna12@gmail.com>
+Project-URL: Homepage, https://github.com/JisnaP/ComputerVisionImageClassification
+Project-URL: Issues, https://github.com/JisnaP/ComputerVisionImageClassification/issues
+Requires-Dist: dvc
+Requires-Dist: mlflow
+Requires-Dist: notebook
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: python-box
+Requires-Dist: pyYAML
+Requires-Dist: tqdm
+Requires-Dist: ensure
+Requires-Dist: joblib
+Requires-Dist: types-PyYAML
+Requires-Dist: scipy
+Requires-Dist: Flask
+Requires-Dist: Flask-Cors
