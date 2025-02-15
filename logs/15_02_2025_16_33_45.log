@@ -1,0 +1,6 @@
+[2025-02-15 16:43:49,236] 32 ImageClassifier -INFO - yaml file: config\config.yaml loaded successfully
+[2025-02-15 16:43:49,240] 32 ImageClassifier -INFO - yaml file: params.yaml loaded successfully
+[2025-02-15 16:43:49,242] 52 ImageClassifier -INFO - created directory at: artifacts
+[2025-02-15 16:43:49,243] 52 ImageClassifier -INFO - created directory at: artifacts/prepare_base_model
+[2025-02-15 16:43:57,266] 83 absl -WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2025-02-15 16:43:57,499] 83 absl -WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 

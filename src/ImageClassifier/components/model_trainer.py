@@ -7,6 +7,7 @@ from ImageClassifier.entity.config_entity import TrainingConfig
 from pathlib import Path
 
 
+tf.config.run_functions_eagerly(True)
 
 class Training:
     def __init__(self, config: TrainingConfig):
@@ -69,20 +70,29 @@ class Training:
 
 
 
-    
     def train(self):
         self.steps_per_epoch = self.train_generator.samples // self.train_generator.batch_size
         self.validation_steps = self.valid_generator.samples // self.valid_generator.batch_size
 
+    
+        optimizer = tf.keras.optimizers.Adam(learning_rate=0.001)  # Choose an appropriate optimizer
+
+   
+        self.model.compile(optimizer=optimizer, loss="categorical_crossentropy", metrics=["accuracy"])
+
         self.model.fit(
-            self.train_generator,
-            epochs=self.config.params_epochs,
-            steps_per_epoch=self.steps_per_epoch,
-            validation_steps=self.validation_steps,
-            validation_data=self.valid_generator
-        )
+        self.train_generator,
+        epochs=self.config.params_epochs,
+        steps_per_epoch=self.steps_per_epoch,
+        validation_steps=self.validation_steps,
+        validation_data=self.valid_generator
+    )
 
         self.save_model(
             path=self.config.trained_model_path,
             model=self.model
         )
+
+
+
+    

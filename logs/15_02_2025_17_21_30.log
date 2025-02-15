@@ -1,0 +1,41 @@
+[2025-02-15 17:23:15,207] 32 ImageClassifier -INFO - yaml file: config\config.yaml loaded successfully
+[2025-02-15 17:23:15,211] 32 ImageClassifier -INFO - yaml file: params.yaml loaded successfully
+[2025-02-15 17:23:15,212] 52 ImageClassifier -INFO - created directory at: artifacts
+[2025-02-15 17:23:15,213] 52 ImageClassifier -INFO - created directory at: artifacts\training
+[2025-02-15 17:23:15,680] 256 absl -WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-02-15 17:24:04,869] 32 ImageClassifier -INFO - yaml file: config\config.yaml loaded successfully
+[2025-02-15 17:24:04,873] 32 ImageClassifier -INFO - yaml file: params.yaml loaded successfully
+[2025-02-15 17:24:04,874] 52 ImageClassifier -INFO - created directory at: artifacts
+[2025-02-15 17:24:04,875] 52 ImageClassifier -INFO - created directory at: artifacts\training
+[2025-02-15 17:24:05,084] 256 absl -WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-02-15 17:31:19,258] 32 ImageClassifier -INFO - yaml file: config\config.yaml loaded successfully
+[2025-02-15 17:31:19,263] 32 ImageClassifier -INFO - yaml file: params.yaml loaded successfully
+[2025-02-15 17:31:19,264] 52 ImageClassifier -INFO - created directory at: artifacts
+[2025-02-15 17:31:19,266] 52 ImageClassifier -INFO - created directory at: artifacts\training
+[2025-02-15 17:31:19,580] 256 absl -WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-02-15 17:33:10,810] 32 ImageClassifier -INFO - yaml file: config\config.yaml loaded successfully
+[2025-02-15 17:33:10,813] 32 ImageClassifier -INFO - yaml file: params.yaml loaded successfully
+[2025-02-15 17:33:10,814] 52 ImageClassifier -INFO - created directory at: artifacts
+[2025-02-15 17:33:10,815] 52 ImageClassifier -INFO - created directory at: artifacts\training
+[2025-02-15 17:33:11,047] 256 absl -WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-02-15 17:37:54,811] 32 ImageClassifier -INFO - yaml file: config\config.yaml loaded successfully
+[2025-02-15 17:37:54,819] 32 ImageClassifier -INFO - yaml file: params.yaml loaded successfully
+[2025-02-15 17:37:54,822] 52 ImageClassifier -INFO - created directory at: artifacts
+[2025-02-15 17:37:54,824] 52 ImageClassifier -INFO - created directory at: artifacts\training
+[2025-02-15 17:37:55,245] 256 absl -WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-02-15 17:48:20,824] 32 ImageClassifier -INFO - yaml file: config\config.yaml loaded successfully
+[2025-02-15 17:48:20,831] 32 ImageClassifier -INFO - yaml file: params.yaml loaded successfully
+[2025-02-15 17:48:20,833] 52 ImageClassifier -INFO - created directory at: artifacts
+[2025-02-15 17:48:20,835] 52 ImageClassifier -INFO - created directory at: artifacts\training
+[2025-02-15 17:48:21,293] 256 absl -WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-02-15 17:55:42,930] 32 ImageClassifier -INFO - yaml file: config\config.yaml loaded successfully
+[2025-02-15 17:55:42,939] 32 ImageClassifier -INFO - yaml file: params.yaml loaded successfully
+[2025-02-15 17:55:42,942] 52 ImageClassifier -INFO - created directory at: artifacts
+[2025-02-15 17:55:42,944] 52 ImageClassifier -INFO - created directory at: artifacts\training
+[2025-02-15 17:55:43,231] 256 absl -WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-02-15 18:11:14,494] 32 ImageClassifier -INFO - yaml file: config\config.yaml loaded successfully
+[2025-02-15 18:11:14,496] 32 ImageClassifier -INFO - yaml file: params.yaml loaded successfully
+[2025-02-15 18:11:14,497] 52 ImageClassifier -INFO - created directory at: artifacts
+[2025-02-15 18:11:14,498] 52 ImageClassifier -INFO - created directory at: artifacts\training
+[2025-02-15 18:11:14,764] 256 absl -WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2025-02-15 18:13:25,401] 83 absl -WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 

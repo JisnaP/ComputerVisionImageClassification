@@ -1,0 +1,10 @@
+[2025-02-14 18:14:31,411] 32 ImageClassifier -INFO - yaml file: config\config.yaml loaded successfully
+[2025-02-14 18:14:31,439] 32 ImageClassifier -INFO - yaml file: params.yaml loaded successfully
+[2025-02-14 18:14:31,441] 52 ImageClassifier -INFO - created directory at: artifacts
+[2025-02-14 18:14:31,441] 52 ImageClassifier -INFO - created directory at: artifacts/data_ingestion
+[2025-02-14 18:15:22,259] 32 ImageClassifier -INFO - yaml file: config\config.yaml loaded successfully
+[2025-02-14 18:15:22,263] 32 ImageClassifier -INFO - yaml file: params.yaml loaded successfully
+[2025-02-14 18:15:22,265] 52 ImageClassifier -INFO - created directory at: artifacts
+[2025-02-14 18:15:22,265] 52 ImageClassifier -INFO - created directory at: artifacts/data_ingestion
+[2025-02-14 18:15:22,265] 23 ImageClassifier -INFO - Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2025-02-14 18:15:31,849] 29 ImageClassifier -INFO - Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip

@@ -1,7 +1,7 @@
 import os
 import zipfile
 import gdown
-from ImageClassifier.logger import logging
+from ImageClassifier import logging
 from ImageClassifier.utils.common import get_size
 from ImageClassifier.entity.config_entity import DataIngestionConfig
 

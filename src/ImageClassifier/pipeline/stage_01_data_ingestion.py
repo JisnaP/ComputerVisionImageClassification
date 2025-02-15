@@ -1,6 +1,6 @@
-from ImageClassifier.config.configuration import ConfigurationManager
-from ImageClassifier.components.data_ingestion import DataIngestion
-from ImageClassifier import logger
+from src.ImageClassifier.config.configuration import ConfigurationManager
+from src.ImageClassifier.components.data_ingestion import DataIngestion
+from src.ImageClassifier import logger
 
 
 
