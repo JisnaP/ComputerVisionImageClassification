@@ -1,0 +1,6 @@
+outs:
+- md5: 904fa45d934ce879b3b1933dca6cb2f1.dir
+  size: 49247431
+  nfiles: 343
+  hash: md5
+  path: Chest-CT-Scan-data
